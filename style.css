@@ -19,3 +19,37 @@ h1 {
     border-radius: 25px;
 }
 
+/* Styles for Pokemon Cards created in JS file */
+
+#container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    background-color: #3D7DCA;
+    width: 175px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img-container {
+    background-color: #003A70;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    color: #003A70;
+    margin-bottom: 0;
+}
